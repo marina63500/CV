@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mon cv en ligne"> 
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,7 +11,8 @@
     <header  class="coordonnees">
         
             <div class="imageProfile">
-                <img src="https://f.hellowork.com/hellowork/tags/3.13.0/img/png/CV/Marcia.png" alt="imageProfile">
+                <img src="./image/3d-illustration-young-girl-with-black-headscarf.jpg" alt="image de profil">
+                <!-- <img src="https://f.hellowork.com/hellowork/tags/3.13.0/img/png/CV/Marcia.png" alt="photo de Profile">  -->
                 <div class="box-icon">
                     <p>
                     <box-icon name="envelope" class="blue"></box-icon>
@@ -34,45 +36,71 @@
                 <h1>MARINA STOLLESTEINER</h1>
                 <h2>Développeur Web et web mobile</h2>
             </div>
-            
+            <!--début v2  -->
+
+            <div class="box"></div>            
         
     </header>
+
+    <main>
+        <!-- 1ère rangée -->
+
+        <section class="description">
+            <h3>A propos:</h3>
+            
+                <p> En formation de développeur web et web mobile chez simplon,
+                    je suis à la recherche d’un stage pratique d’une durée de 10 semaines à compter du
+                    19 mai jusqu'au 30 juillet 2025.
+                    Toujours à la recherche de nouvelles technologies pour améliorer l'expérience utilisateur.
+                </p>
+        </section>
+
+        <!-- 2ème rangée -->
+
+        <section class="competences">
+            <div class="box1">
+                <h3>Compétences techniques</h3>
+                
+                <box-icon  class="logo-language" type='logo' name='html5' color="gold"></box-icon>                
+                <box-icon class="logo-language" type='logo' name='css3' color="blue"></box-icon>                
+                <box-icon class="logo-language" type='logo' name='javascript' color="yellow"></box-icon>                
+            </div>         
+            
+            <div class="box2">
+                <h3>Expérience professionnelle</h3>
+                    <ul>
+                        <li>07/2020-02/2021:  aide-soignante,<i>CH Paul Ardier ISSOIRE</i></li>
+                        <li>06/1997-06/2019:  militaire sous-contrat,<i>Ministère des Armées</i></li>
+                    </ul>         
+            </div>
+        </section>
+
+        <!-- 3eme rangée -->
+
+        <section class="qualite">            
+            <div class="soft">
+                <h3>Soft Skills</h3>
+                    <ul>
+                        <li>capacité d'adaptation</li>
+                        <li>sens de la communication et de l'écoute</li>
+                        <li>travail en équipe</li>                        
+                    </ul>
+            </div>
+
+            <div class="interet">
+                <h3>Centres d'intérêts</h3>
+                    <ul>
+                        <li>randonnée, géocaching</li>
+                        <li>running</li>
+                        <li>vtt</li>
+                    </ul>
+            </div>
+        </section>
+    </main>
+
 
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 </html>
 
-
-
-
-
-<!-- guillaume
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Profile</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        #profile, #repos {
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-    <header> 
-        <div id="profile"></div>
-    </header>
-    
-    <button id="display"> Afficher mes projets </button>
-    <h2>Repositories</h2>
-    <div id="repos"></div>
-
-
-    <script src="script.js"></script>
-</body>
-</html> -->
+  

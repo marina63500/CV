@@ -1,11 +1,7 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-}
-
-/* header{
-    
 } */
 
 .coordonnees{
@@ -16,8 +12,7 @@
     background-size: cover;
     background-position: center;
     margin:auto;
- 
-
+    align-items: center;
 }
 
 .blue{
@@ -43,11 +38,146 @@ h1, h2{
     margin-top: 10px;
 }
 
-@media (max-width : 525px) {
-    .coordonnees {
+.box{
+    width: 200px;
+}
+
+
+  /* debut v2 */
+
+ main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* 1ere rangée */
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: #000000 ;
+    background-color: #f0f7fa ;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    gap: 10px;
+}  
+
+h3 {
+    text-align: center;
+}
+
+/* p{
+    text-align: center;
+} */
+
+/* 2eme rangée */
+.competences{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: left;    
+    flex-wrap: wrap;   
+    margin: 10px;
+    padding: 10px;    
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    
+}
+
+ .box1{
+    width: 30%;    
+    font-size: 20px;    
+    border: solid;
+    border-color: #000000;
+    background-color:#f0f7fa ;
+    border-radius: 10px;
+    padding: 20px; 
+    text-align: center; 
+    
+ }
+
+.logo-language {
+    height: 64px;
+    width: 64px;
+ }
+
+
+.box2{
+    width: 60%;    
+    font-size: 20px;
+    border: solid;
+    border-color: #000000;
+    background-color:#f0f7fa ;
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+/* 3eme rangée */
+
+.qualite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+.soft{
+    border-radius: 10px;
+    border: #000000 solid;
+    background-color: #f0f7fa;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+}
+
+.interet{
+    border-radius: 10px;
+    border: #000000 solid;
+    background-color: #f0f7fa;
+    padding: 20px;
+    margin:10px ;
+    width: 60%;
+    height: auto;
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width : 600px) {
+    .coordonnees, .qualite, .competences {
         flex-direction: column-reverse;
         align-items: center;
+        width:90%;
     }
+
+    .soft, .interet , .box1, .box2, .description{
+        width:90%;
+    }
+
+
+
+
+
 }
-  
+
+
+
 
