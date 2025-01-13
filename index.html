@@ -41,8 +41,17 @@
             <div class="box"></div>            
         
     </header>
+            
+            <div id="profile"></div> 
+
+                <h2>Repositories</h2>
+
+
+            <div id="repos"></div>
+            
 
     <main>
+        
         <!-- 1ère rangée -->
 
         <section class="description">
@@ -100,6 +109,18 @@
 
 
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script>
+        document.getElementById('button2').addEventListener('click', function() {
+            const text2 = document.getElementById('text2');
+            if (text2.style.display === 'none') {
+                text2.style.display = 'block';
+            } else {
+                text2.style.display = 'none';
+            }
+    });
+    </script>
+
+    <script src="script.js"></script>
 </body>
 </html>
 

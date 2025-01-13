@@ -45,6 +45,10 @@ h1, h2{
 
   /* debut v2 */
 
+.button h2{
+    text-align: left;
+}
+
  main{
     display: flex;
     justify-content: center;
@@ -131,7 +135,7 @@ h3 {
     margin: 10px;
     padding: 10px;
     gap: 20px;
-    width: 100%;
+    width: 90%;
     height: auto;
     font-size: 20px;
 }
@@ -161,22 +165,21 @@ h3 {
 
 
 
-@media (max-width : 600px) {
+@media (max-width : 1140px) {  
+
+    .soft, .interet , .box1, .box2, .description{
+        width:90%;
+    }
+}
+
+@media (max-width:600px){
     .coordonnees, .qualite, .competences {
         flex-direction: column-reverse;
         align-items: center;
         width:90%;
     }
-
-    .soft, .interet , .box1, .box2, .description{
-        width:90%;
-    }
-
-
-
-
-
 }
+
 
 
 
